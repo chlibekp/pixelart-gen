@@ -21,6 +21,13 @@ python sample.py --ckpt runs/main/ema.pt --quantize 12 --nn --interp            
 
 Trénink jde přerušit Ctrl+C (uloží checkpoint) a navázat přes `--resume`.
 
+Bez tréninku: natrénovaný checkpoint je v [release v1.0](https://github.com/chlibekp/pixelart-gen/releases/tag/v1.0).
+
+```bash
+mkdir -p runs/main && gh release download v1.0 -p ema.pt -D runs/main
+python sample.py --ckpt runs/main/ema.pt
+```
+
 ## Soubory
 
 | Soubor | Obsah |
