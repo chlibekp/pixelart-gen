@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.DS_Store
+# generované výstupy (dataset, checkpointy, vzorky); vybrané obrázky jsou v docs/
+data/
+runs/
